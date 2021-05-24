@@ -1,6 +1,28 @@
-.title {
+.main-content__title,  .main-content__subtitle, .menu__item, .logo, .main-content__button {
   font-family: 'Newsreader', serif;
 }
-.button {
+.main-content__button {
   background:green;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px green;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding: 40px 0;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
