@@ -1,6 +1,72 @@
-.title {
-  font-family: 'Newsreader', serif;
+.body {
+  margin: 0;
 }
-.button {
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-content__image1 {
+  position: absolute;
+  width: 190px;
+  height: 35px;
+  left: 219px;
+  top: 40px;
+}
+.menu {
+  display: flex;
+  padding: 0 13px;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
+.main-section {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.main-content__title {
+  position: absolute;
+  width: 434px;
+  height: 195px;
+  top: 212px;
+  left: 219px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+}
+.main-content__subtitle {
+   position: absolute;
+   width: 367px;
+   height: 43px;
+   top: 447px;
+   left: 219px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+}
+.main-content__button {
   background:green;
+  position: absolute;
+  width: 209px;
+  height: 44px;
+  top: 545px;
+  left: 219px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+.wrapper, .main-section, .logo, .menu__item, .header, .main-content, .main-content__title, .main-content__subtitle, .main-content__button {
+  font-family: 'pt_serifbold', Arial, Helvetica, sans-serif;
 }
