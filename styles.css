@@ -1,6 +1,38 @@
-.title {
-  font-family: 'Newsreader', serif;
+body {
+  margin: 0;
 }
-.button {
+  .wrapper {
+  margin: auto;
+  width: 80%;
+}
+.header {
+  width: 80%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__header__logo-img {
+  height: 35px;
+  width: 190px;
+  margin-left: 0px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+padding: 013px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+.main-content {
+
+}
+.main-content__button {
   background:green;
+}
+.wrapper, .main-section, .logo, .menu__item, .header, .main-content, .main-content__title, .main-content__button, .main-content__subtitle {
+  font-family: 'pt_serifbold', Arial, Helvetica, sans-serif;
 }
